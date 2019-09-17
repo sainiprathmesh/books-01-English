@@ -14,5 +14,9 @@ public class Main {
             String isbn = sc.nextLine().trim();
             books[i] = new Book(bname, baname, isbn);
         }
+        for (int i = 0; i < books.length; i++) {
+            System.out.println(books[i]);
+        }
+        sc.close();
     }
 }
