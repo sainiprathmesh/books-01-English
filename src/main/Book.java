@@ -37,4 +37,10 @@ public class Book {
                 "ISBN:\t" + getIsbn() + "\n" +
                 "------------------------------\n";
     }
+
+    public Book(String bname, String baname, String isbn) {
+        this.bname = bname;
+        this.baname = baname;
+        this.isbn = isbn;
+    }
 }
